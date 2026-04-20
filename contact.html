@@ -22,6 +22,17 @@
             <br>
             <p class=""><a href="mailto:hannaviceramusic@gmail.com">hannaviceramusic@gmail.com</a></p>
             <p class=""><a href="https://instagram.com/flutiepiee">Instagram</a></p>
+            <form class="contact-form" action="https://api.w3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="w3f_05b8622bebe73fbd69105d44c6db6086464f9bd8fca55db2">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" required></textarea>
+                <input type="hidden" name="_gotcha" style="display:none">
+                <button type="submit">Send</button>
+            </form>
         </div>
         
         <script src="main.js" async defer></script>
