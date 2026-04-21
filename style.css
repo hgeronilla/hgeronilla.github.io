@@ -92,9 +92,13 @@ p{
     margin:auto;
 }
 
-.bio{
+.wide-text{
     max-width:800px;
     /* width:800px; */
+}
+
+.spacer{
+    height:50px;
 }
 
 .text-content a{
