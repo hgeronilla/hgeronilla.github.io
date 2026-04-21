@@ -109,13 +109,23 @@ iframe{
     max-width: 100%;
 }
 
-.gallery img{
-    margin:auto;
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flex-item{
+    flex: 1 1 300px;
+    max-width: 400px;
+}
+
+.flex-item img{
+    width: 100%;
+    height: auto;
     display: block;
-    margin-top:20px;
-    margin-bottom:20px;
-    width:clamp(200px, 80vw, 400px);
-    /* border-radius: 200px; */
 }
 
 
